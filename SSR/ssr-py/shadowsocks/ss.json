@@ -1,0 +1,13 @@
+{
+	"server":"0.0.0.0",
+	"local_address": "127.0.0.1",
+	"local_port":1981,
+	"port_password":{
+		"1981":"123654",
+		"9004":"password4"
+	},
+	"timeout":300,
+	"method":"aes-256-cfb",
+	"fast_open": false
+}
+

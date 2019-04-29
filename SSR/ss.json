@@ -1,0 +1,19 @@
+{
+    "server":"0.0.0.0",
+    "server_ipv6":"::",
+    "local_address":"127.0.0.1",
+    "local_port":1080,
+    "port_password":{
+        "992":{"protocol":"auth_chain_a", "password":"123456", "obfs":"tls1.2_ticket_auth", "obfs_param":""},
+        "3389":{"protocol":"auth_sha1_v4", "password":"123456", "obfs":"plain", "obfs_param":""}
+    },
+    "timeout":460,
+    "method":"chacha20-ietf",
+    "protocol":"origin",
+    "obfs":"plain",
+    "obfs_param":"",
+    "dns_ipv6":false,
+    "fast_open":true,
+    "workers":2
+}
+

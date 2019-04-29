@@ -1,0 +1,10 @@
+[Unit]
+Description=ss service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python /root/SSR/ssr-py/shadowsocks/server.py -p 1424 -k password -m aes-256-cfb -o plain
+
+[Install]
+WantedBy=multi-user.target
+
